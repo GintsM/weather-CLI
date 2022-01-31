@@ -5,7 +5,7 @@ from configparser import ConfigParser
 from urllib import parse, request, error
 
 
-BASE_WEATHER_API_URL = "cd/data/2.5/weather"
+BASE_WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
 PADDING = 20
 REVERSE = "\033[;7m"
 RESET = "\033[0m"
